@@ -9,7 +9,6 @@ def main():
 
     question = input("Enter your question: ")
 
-    filepath = "./query.txt"
     try:
         with open("query.txt", "r") as textFile:
             query = textFile.read()
